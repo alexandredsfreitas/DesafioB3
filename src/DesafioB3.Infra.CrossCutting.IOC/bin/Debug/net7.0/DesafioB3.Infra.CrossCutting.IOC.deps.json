@@ -1,0 +1,96 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "DesafioB3.Infra.CrossCutting.IOC/1.0.0": {
+        "dependencies": {
+          "DesafioB3.Application": "1.0.0",
+          "DesafioB3.Domain": "1.0.0"
+        },
+        "runtime": {
+          "DesafioB3.Infra.CrossCutting.IOC.dll": {}
+        }
+      },
+      "AutoMapper/12.0.1": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/AutoMapper.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.1.0"
+          }
+        }
+      },
+      "DomainValidationCore/1.1.1": {
+        "runtime": {
+          "lib/netcoreapp3.1/DomainValidationCore.dll": {
+            "assemblyVersion": "1.0.1.0",
+            "fileVersion": "1.0.1.0"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.7.0": {},
+      "DesafioB3.Application/1.0.0": {
+        "dependencies": {
+          "DesafioB3.Domain": "1.0.0",
+          "DomainValidationCore": "1.1.1",
+          "AutoMapper": "12.0.1"
+        },
+        "runtime": {
+          "DesafioB3.Application.dll": {}
+        }
+      },
+      "DesafioB3.Domain/1.0.0": {
+        "dependencies": {
+          "DomainValidationCore": "1.1.1"
+        },
+        "runtime": {
+          "DesafioB3.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DesafioB3.Infra.CrossCutting.IOC/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AutoMapper/12.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hvV62vl6Hp/WfQ24yzo3Co9+OPl8wH8hApwVtgWpiAynVJkUcs7xvehnSftawL8Pe8FrPffBRM3hwzLQqWDNjA==",
+      "path": "automapper/12.0.1",
+      "hashPath": "automapper.12.0.1.nupkg.sha512"
+    },
+    "DomainValidationCore/1.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-i0q3VKDrPLax99jtSUP9tHLX4g8Bz8Klf7UA4x5GZaETdJcuX0kP2+p8txm7dJ3tkLjOx7CYHW1+0Blwrq7p+A==",
+      "path": "domainvalidationcore/1.1.1",
+      "hashPath": "domainvalidationcore.1.1.1.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "path": "microsoft.csharp/4.7.0",
+      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
+    },
+    "DesafioB3.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DesafioB3.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

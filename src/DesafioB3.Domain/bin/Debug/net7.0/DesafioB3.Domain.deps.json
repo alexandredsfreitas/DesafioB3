@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "DesafioB3.Domain/1.0.0": {
+        "dependencies": {
+          "DomainValidationCore": "1.1.1"
+        },
+        "runtime": {
+          "DesafioB3.Domain.dll": {}
+        }
+      },
+      "DomainValidationCore/1.1.1": {
+        "runtime": {
+          "lib/netcoreapp3.1/DomainValidationCore.dll": {
+            "assemblyVersion": "1.0.1.0",
+            "fileVersion": "1.0.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DesafioB3.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DomainValidationCore/1.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-i0q3VKDrPLax99jtSUP9tHLX4g8Bz8Klf7UA4x5GZaETdJcuX0kP2+p8txm7dJ3tkLjOx7CYHW1+0Blwrq7p+A==",
+      "path": "domainvalidationcore/1.1.1",
+      "hashPath": "domainvalidationcore.1.1.1.nupkg.sha512"
+    }
+  }
+}

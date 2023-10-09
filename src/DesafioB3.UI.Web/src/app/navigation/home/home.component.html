@@ -1,0 +1,47 @@
+<div class="container">
+    <header class="bg-primary py-5 mb-5 text-center">
+      <div class="container">
+        <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="Angular Logo" height="72" />
+        <h1 class="display-4 text-white mt-4">Cálculo do CDB</h1>
+        <p class="lead text-white">Informe um valor monetário positivo e um prazo em meses para obter os resultados Bruto e Líquido da sua simulação.</p>
+      </div>
+    </header>
+  
+    <div class="row">
+      <div class="col-md-6 mx-auto">
+        <form (submit)="onSubmit()" class="mb-4">
+          <div class="form-group">
+            <label for="valorInicial">Valor Inicial:</label>
+            <input
+              type="number"
+              id="valorInicial"
+              class="form-control"
+              [(ngModel)]="investment.initialAmount"
+              name="initialAmount"
+              required
+            />
+          </div>
+  
+          <div class="form-group">
+            <label for="meses">Tempo em Meses:</label>
+            <input
+              type="number"
+              id="meses"
+              class="form-control"
+              [(ngModel)]="investment.months"
+              name="months"
+              required
+            />
+          </div>
+  
+          <button type="submit" class="btn btn-primary">Calcular</button>
+        </form>
+  
+        <div *ngIf="result" class="mt-4">
+          <h2>Resultados do Cálculo</h2>
+          <p class="lead">Resultado Bruto: {{ result.grossResult }}</p>
+          <p class="lead">Resultado Líquido: {{ result.netResult }}</p>
+        </div>
+      </div>
+    </div>
+  </div>

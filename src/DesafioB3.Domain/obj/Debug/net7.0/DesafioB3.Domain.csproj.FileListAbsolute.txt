@@ -1,0 +1,12 @@
+/Users/alexandredsfreitas/Projects/DesafioB3/src/DesafioB3.Domain/bin/Debug/net7.0/DesafioB3.Domain.deps.json
+/Users/alexandredsfreitas/Projects/DesafioB3/src/DesafioB3.Domain/bin/Debug/net7.0/DesafioB3.Domain.dll
+/Users/alexandredsfreitas/Projects/DesafioB3/src/DesafioB3.Domain/bin/Debug/net7.0/DesafioB3.Domain.pdb
+/Users/alexandredsfreitas/Projects/DesafioB3/src/DesafioB3.Domain/obj/Debug/net7.0/DesafioB3.Domain.csproj.AssemblyReference.cache
+/Users/alexandredsfreitas/Projects/DesafioB3/src/DesafioB3.Domain/obj/Debug/net7.0/DesafioB3.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alexandredsfreitas/Projects/DesafioB3/src/DesafioB3.Domain/obj/Debug/net7.0/DesafioB3.Domain.AssemblyInfoInputs.cache
+/Users/alexandredsfreitas/Projects/DesafioB3/src/DesafioB3.Domain/obj/Debug/net7.0/DesafioB3.Domain.AssemblyInfo.cs
+/Users/alexandredsfreitas/Projects/DesafioB3/src/DesafioB3.Domain/obj/Debug/net7.0/DesafioB3.Domain.csproj.CoreCompileInputs.cache
+/Users/alexandredsfreitas/Projects/DesafioB3/src/DesafioB3.Domain/obj/Debug/net7.0/DesafioB3.Domain.dll
+/Users/alexandredsfreitas/Projects/DesafioB3/src/DesafioB3.Domain/obj/Debug/net7.0/refint/DesafioB3.Domain.dll
+/Users/alexandredsfreitas/Projects/DesafioB3/src/DesafioB3.Domain/obj/Debug/net7.0/DesafioB3.Domain.pdb
+/Users/alexandredsfreitas/Projects/DesafioB3/src/DesafioB3.Domain/obj/Debug/net7.0/ref/DesafioB3.Domain.dll
