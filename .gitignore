@@ -8,3 +8,5 @@ src/DesafioB3.Domain/obj
 src/DesafioB3.Domain/bin
 src/DesafioB3.Infra.CrossCutting.IOC/obj
 src/DesafioB3.Infra.CrossCutting.IOC/bin
+src/DesafioB3.Domain.Tests/obj
+src/DesafioB3.Domain.Tests/bin

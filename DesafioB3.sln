@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioB3.Application", "sr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioB3.Infra.CrossCutting.IOC", "src\DesafioB3.Infra.CrossCutting.IOC\DesafioB3.Infra.CrossCutting.IOC.csproj", "{5AB8C49E-B0D4-4403-8999-6310BDE5632D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioB3.Domain.Tests", "src\DesafioB3.Domain.Tests\DesafioB3.Domain.Tests.csproj", "{A313865A-EBF2-4201-B64C-4D52E2DB3F66}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{5AB8C49E-B0D4-4403-8999-6310BDE5632D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5AB8C49E-B0D4-4403-8999-6310BDE5632D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5AB8C49E-B0D4-4403-8999-6310BDE5632D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A313865A-EBF2-4201-B64C-4D52E2DB3F66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A313865A-EBF2-4201-B64C-4D52E2DB3F66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A313865A-EBF2-4201-B64C-4D52E2DB3F66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A313865A-EBF2-4201-B64C-4D52E2DB3F66}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
