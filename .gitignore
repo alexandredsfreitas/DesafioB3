@@ -1,0 +1,10 @@
+
+.vs/DesafioB3/xs
+src/DesafioB3.API/obj
+src/DesafioB3.API/bin
+src/DesafioB3.Application/obj
+src/DesafioB3.Application/bin
+src/DesafioB3.Domain/obj
+src/DesafioB3.Domain/bin
+src/DesafioB3.Infra.CrossCutting.IOC/obj
+src/DesafioB3.Infra.CrossCutting.IOC/bin
